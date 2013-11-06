@@ -12,6 +12,10 @@ In order for the version checker to be able to accurately detect version informa
 
 The plugin also needs to have a ``url`` field defined which points to a publicly hosted version of the plugin (Github, Bitbucket .. etc).
 
+### Github
+
+For projects that are hosted on Github, the version will be checked againt the **init.rb** file that is available on the *master* branch.
+
 ## Usage
 
 This plugin overrides the built-in Redmine plugin settings screen, which is accessible via http://(redmine-url)/admin/plugins.
