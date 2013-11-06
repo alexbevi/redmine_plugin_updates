@@ -1,0 +1,6 @@
+en: 
+  message_no_url_defined: "Plugin init.rb doesn't define a URL"
+  message_cannot_get_latest_plugin_version: "Cannot retrieve latest plugin version"
+  message_too_many_potential_versions_found: "More than 1 potential version number was found"
+  message_plugin_init_not_found: "Plugin initialization file not found"
+  message_version_mismatch: "Version %{ver} is currently available!"
