@@ -3,4 +3,4 @@ en:
   message_cannot_get_latest_plugin_version: "Cannot retrieve latest plugin version"
   message_too_many_potential_versions_found: "More than 1 potential version number was found"
   message_plugin_init_not_found: "Plugin initialization file not found"
-  message_version_mismatch: "Version %{ver} is currently available!"
+  message_new_version_available: "Version %{ver} is currently available!"

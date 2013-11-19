@@ -6,6 +6,8 @@ The version checker currently supports plugins that are publicly hosted on:
 
 * Github
 
+Note that version numbers to be matched currently need to comply with the [Semantic Versioning](http://semver.org) standard.
+
 ## Making your Plugin Compatible
 
 In order for the version checker to be able to accurately detect version information in an exernal plugin, that plugin needs to have a valid `version` field defined in the plugins **init.rb** file.
