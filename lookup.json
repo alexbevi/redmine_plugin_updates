@@ -3,5 +3,10 @@
     "id":     "clipboard_image_paste",
     "author": "Richard Pecl",
     "url":    "https://github.com/peclik/clipboard_image_paste"
+  },
+  {
+    "id":     "redmine_wiki_extensions",
+    "author": "Haruyuki Iida",
+    "url":    "https://bitbucket.org/haru_iida/redmine_wiki_extensions"
   }
 ]
