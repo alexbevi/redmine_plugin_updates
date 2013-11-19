@@ -1,5 +1,6 @@
 require 'redmine'
 require_dependency "plugin"
+require_dependency "semantic/version"
 
 Redmine::Plugin.register :redmine_plugin_updates do
   name        'Plugin Update Checker'

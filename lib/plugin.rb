@@ -35,9 +35,13 @@ module Redmine
 
     def perform_version_check(current, external)
       return "" if current == external
-      re_semver = /^(\d+\.\d+\.\d+)(?:-([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?(?:\+([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?$/i
-
-      ::I18n.t(:message_new_version_available, :ver => external) unless current == external
+      begin
+        return ::I18n.t(:message_new_version_available, :ver => external) if Semantic::Version.new(external) > Semantic::Version.new(current)
+      rescue
+        return ::I18n.t(:message_new_version_available, :ver => external) unless current == external
+      end
+      
+      nil
     end
 
     def latest_version_from_github(scm_url)

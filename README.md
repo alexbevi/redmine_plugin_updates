@@ -25,3 +25,7 @@ This plugin overrides the built-in Redmine plugin settings screen, which is acce
 ![Redmine Settings View](doc/ss01.png)
 
 We're currently only doing a *string equality check*, so versions that are less than or greater than the currently installed version aren't being evaluated properly (TODO).
+
+### Cheers
+
+Thanks to Josh Lindsey for his [Semantic Version](https://github.com/jlindsey/semantic) class.
