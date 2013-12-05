@@ -29,3 +29,6 @@ We're currently only doing a *string equality check*, so versions that are less 
 ### Cheers
 
 Thanks to Josh Lindsey for his [Semantic Version](https://github.com/jlindsey/semantic) class.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/alexbevi/redmine_plugin_updates/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
