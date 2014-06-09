@@ -1,3 +1,9 @@
+# DISCONTINUED
+
+The goal of this plugin was to determine if updates were available on various source control sites. Redmine has since introduced this functionality (see http://www.redmine.org/issues/3177) in 2.5.2, which checks against the Redmine plugin directory.
+
+Though the goals are the same, the Redmine core implementation is a good enough for my purposes and negates the need for this plugin to be developed further.
+
 # Plugin Update Checker for Redmine
 
 This plugin checks the currently registered plugins of a Redmine installation for updates.
